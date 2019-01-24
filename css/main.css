@@ -24,3 +24,19 @@ body {
   display: block;
   width: 100%;
 }
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  max-width: 15em;
+  padding: 1em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
